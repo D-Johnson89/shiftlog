@@ -161,7 +161,7 @@ def get_workers_overview(
 
     return WorkersOverview(
         workers=summaries
-)
+    )
 
 
 @router.get("/summary", response_model=OrgHoursSummary)
